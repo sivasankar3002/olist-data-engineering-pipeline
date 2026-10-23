@@ -1,0 +1,30 @@
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local datasets and generated artifacts
+data/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*service-account*.json
+credentials.json
+token.json
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
